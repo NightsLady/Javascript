@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap" rel="stylesheet">
+  <title>Exercícios DOM - getElementById</title>
+  <style>
+    .oculto {
+      display: none;
+    }
+
+    .ativo {
+      color: green;
+    }
+
+    .erro {
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 id="titulo-principal">Bem-vindo ao Curso de JavaScript</h1>
+
+  <p id="mensagem">Clique no botão para alterar esta mensagem.</p>
+
+  <button id="btn-toggle-cor">Ocultar elemento</button>
+  <button id="btn-alterar">Alterar Mensagem</button>
+  <button id="btn-resetar">Resetar</button>
+
+  <div id="contador-area">
+    <h2>Contador</h2>
+    <p id="contador-valor">0</p>
+    <button id="btn-somar">Somar</button>
+    <button id="btn-subtrair">Subtrair</button>
+  </div>
+
+  <hr>
+
+  <div id="caixa-texto">
+    <p id="texto">Texto original.</p>
+    <button id="btn-texto">Alterar Texto</button>
+  </div>
+
+  <hr>
+
+  <div id="formulario">
+    <input id="campo-nome" type="text" placeholder="Digite seu nome">
+    <button id="btn-enviar">Enviar</button>
+    <p id="resultado"></p>
+  </div>
+
+  <hr>
+
+  <p id="cor-atual">Cor atual: preta</p>
+  <div id="cores">
+    <button id="btn-mudar-cor">Mudar Cor</button>
+  </div>
+
+  <script src="/js/index.js"></script>
+</body>
+
+</html>
